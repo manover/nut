@@ -1,4 +1,4 @@
-/libnutclient.pc
-/libnutscan.pc
-/libupsclient-config
-/libupsclient.pc
+#/libnutclient.pc
+#/libnutscan.pc
+#/libupsclient-config
+#/libupsclient.pc
