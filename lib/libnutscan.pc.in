@@ -8,3 +8,4 @@ Description: Power devices discovery with Network UPS Tools
 Version: @PACKAGE_VERSION@
 Libs: -L${libdir} -lnutscan
 Cflags: -I${includedir}
+

@@ -11,3 +11,4 @@ Description: UPS monitoring with Network UPS Tools
 Version: @PACKAGE_VERSION@
 Libs: -L${libdir} -lupsclient @LIBSSL_LIBS@
 Cflags: -I${includedir} @LIBSSL_CFLAGS@
+
