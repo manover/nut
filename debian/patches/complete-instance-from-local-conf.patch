@@ -1,0 +1,16 @@
+--- a/scripts/misc/nut.bash_completion
++++ b/scripts/misc/nut.bash_completion
+@@ -12,10 +12,11 @@ _nut_local_upses()
+ 
+ _nut_upses()
+ {
+-    upsc -l 2>/dev/null
+     # Example syntax:
+-    echo UPS@host:port
++    #echo UPS@host:port
+     # ... could add others from upsmon.conf, etc.
++    upsc -l 2>/dev/null
++    [ -r /etc/nut/upsmon.conf ] && awk '/^\s*MONITOR/{print $2}' /etc/nut/upsmon.conf
+ }
+ 
+ ###

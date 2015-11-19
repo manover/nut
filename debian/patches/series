@@ -1,0 +1,6 @@
+0003-install-dev-files-in-usr.patch
+0002-nut-monitor-paths.patch
+0004-fix-systemd-service.patch
+0006-ups-conf-maxretry.patch
+0008-drop-w3c-icons.patch
+complete-instance-from-local-conf.patch

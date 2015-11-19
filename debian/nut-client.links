@@ -1,0 +1,5 @@
+etc/init.d/nut-client etc/init.d/ups-monitor
+usr/share/bash-completion/completions/nut usr/share/bash-completion/completions/upsc
+usr/share/bash-completion/completions/nut usr/share/bash-completion/completions/upscmd
+usr/share/bash-completion/completions/nut usr/share/bash-completion/completions/upsmon
+usr/share/bash-completion/completions/nut usr/share/bash-completion/completions/upsrw
