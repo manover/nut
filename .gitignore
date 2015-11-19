@@ -36,3 +36,6 @@ Makefile.in
 /nut-*.tar.gz.md5
 /nut-*.tar.gz.sha256
 /nut-*.tar.gz.sig
+
+# Debian
+.pc
